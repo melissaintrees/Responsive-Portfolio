@@ -1,0 +1,367 @@
+body {
+
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background-image: url(../images/concrete_seamless.png);
+  min-height: calc(100vh - 70px);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main_div {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+header {
+  background-color: #ffffff;
+  text-align:center;
+  height: 100px;
+  border-bottom: 2px solid #cccccc;
+}
+
+header h1{
+  float:left;
+  background-color:#4aaaa5;
+  line-height: 100px;
+/*  padding-right: 25px;
+  margin-left: 100px;*/
+  color:white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.title_text {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+nav {
+  float: right;
+  margin-top: 25px;
+  margin-right: 35px;
+}
+
+header li {
+  padding: 10px;
+  display: inline;
+}
+
+header li a {
+  color: #777777;
+  line-height: 53px;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+
+header li a:hover {
+  color: #FF5700;
+}
+
+.nav_line {
+  border-right: 1px solid #cccccc;
+  font-size: 6px;
+}
+
+.nav_line a:last-child {
+  border-right: 0;
+}
+
+.main_content {
+  width:650px;
+  float: left;
+  margin: 40px 0px 40px 0px;
+  padding: 20px 0px 30px 0px;
+  border: .5px solid #cccccc;
+}
+
+article {
+  background-color: white;
+}
+
+h2 {
+  color: #4aaaa5;
+}
+
+.about_title {
+  margin: 15px 0px 25px 0px;
+}
+
+hr {
+  width:92%;
+  border-top: 2px solid #cccccc;
+}
+
+.clearfix::after {
+  content:"";
+  display: block;
+  clear:both;
+}
+
+#picture {
+  float: left;
+  margin: 20px 20px 10px 25px;
+}
+
+.info_text {
+  line-height: 175%;
+  width: 91%;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+a {color: #4aaaa5;}
+a:hover {color: #19FFF3;}
+
+.contact_info {
+  max-width: 270px;
+  background-color: white;
+/*  display: inline-block;
+  vertical-align: top;*/
+  float:right;
+  margin: 40px 10px 20px 10px;
+  border: .5px solid #cccccc;
+  padding: 15px 8px 15px 8px;
+}
+
+.connect_text {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.social_links:hover img{
+  background-color: #19FFF3;
+  border-radius: 60px;
+}
+
+/*  Portfolio Page Styles  */
+
+.gallery {
+  margin:10px 20px;
+  width: 100%;
+  display: inline-block;
+}
+
+#img1 {
+  background-image: url(http://lorempixel.com/265/200/abstract);
+  background-position: center;
+  background-repeat: none;
+  width: 265px;
+  height: 200px;
+  margin: 20px;
+  float: left;
+}
+
+#img2 {
+  background-image: url(http://lorempixel.com/265/200/cats);
+  background-position: center;
+  background-repeat: none;
+  width: 265px;
+  height: 200px;
+  margin: 20px;
+  float: left;
+}
+
+#img3 {
+  background-image: url(http://lorempixel.com/265/200/city);
+  background-position: center;
+  background-repeat: none;
+  width: 265px;
+  height: 200px;
+  margin: 20px;
+  float: left;
+}
+
+#img4 {
+  background-image: url(http://lorempixel.com/265/200/nightlife);
+  background-position: center;
+  background-repeat: none;
+  width: 265px;
+  height: 200px;
+  margin: 20px;
+  float: left;
+}
+
+#img5 {
+  background-image: url(http://lorempixel.com/265/200/fashion);
+  background-position: center;
+  background-repeat: none;
+  width: 265px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.port_text {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 22px;
+  color: white;
+  background-color: #4aaaa5;
+  text-align: center;
+  padding: 20px;
+  margin-top: 125px;
+}
+
+.port_text:hover {
+  background-color: #19FFF3;
+}
+
+/* Contact Page Styles */
+
+.form {
+  border-radius: 2px;
+  background-color: white;
+  padding: 20px 25px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif
+  color: #777777;
+}
+
+input[type=text], input[type=email] {
+  width: 90%;
+  padding: 12px 20px 12px 2px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 90%;
+  height: 200px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 18%;
+  padding: 12px 14px;
+  margin: 8px 0;
+  border: none;
+  background-color: #4aaaa5;
+  font-size: 18px;
+  transition:all 0.25s ease;
+  color: white;
+}
+
+input[type=submit]:hover {
+  background-color: #19FFF3;
+}
+
+@-webkit-keyframes wiggle {
+  20%  {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  40%  {
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+  }
+  60%  {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  80%  {
+    -webkit-transform: translateX(-1px);
+    transform: translateX(-1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes wiggle {
+  20%  {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  40%  {
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px);
+  }
+  60%  {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  80%  {
+    -webkit-transform: translateX(-1px);
+    transform: translateX(-1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.wiggle:hover {
+  -webkit-animation: swing 1s ease;
+  animation: wiggle 1s ease;
+
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+  font-size: 14px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: grey;
+  font-size: 14px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: grey;;
+  font-size: 14px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: grey;
+  font-size: 14px;
+}
+
+aside ul {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+aside li {
+  display: inline;
+  padding: 2px;
+}
+
+footer {
+  height: 100px;
+  background-color: #666666;
+  clear: both;
+}
+
+footer h3 {
+
+}
+
+#footer_border {
+  border-top: 8px solid #4FA9A4;
+}
+
+footer h3 {
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  color: lightgrey;
+  padding-top: 30px;
+}
+
