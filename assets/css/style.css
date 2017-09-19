@@ -81,6 +81,8 @@ header li a:hover {
   border: .5px solid #cccccc;
 }
 
+
+
 article {
   background-color: white;
 }
@@ -147,74 +149,59 @@ a:hover {color: #19FFF3;}
 /*  Portfolio Page Styles  */
 
 .gallery {
-  margin:10px 20px;
+/*  margin:20px 20px;
+  padding: 30px;
   width: 100%;
-  display: inline-block;
+  display: inline-block;*/
 }
 
-#img1 {
-  background-image: url(http://lorempixel.com/265/200/abstract);
-  background-position: center;
-  background-repeat: none;
-  width: 265px;
-  height: 200px;
-  margin: 20px;
+.work {
+  position: relative;
   float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
 }
 
-#img2 {
-  background-image: url(http://lorempixel.com/265/200/cats);
-  background-position: center;
-  background-repeat: none;
-  width: 265px;
-  height: 200px;
-  margin: 20px;
-  float: left;
+/*.work:nth-child(even) {
+  margin-right: 40px;
+}*/
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
 }
 
-#img3 {
-  background-image: url(http://lorempixel.com/265/200/city);
-  background-position: center;
-  background-repeat: none;
-  width: 265px;
-  height: 200px;
-  margin: 20px;
-  float: left;
-}
-
-#img4 {
-  background-image: url(http://lorempixel.com/265/200/nightlife);
-  background-position: center;
-  background-repeat: none;
-  width: 265px;
-  height: 200px;
-  margin: 20px;
-  float: left;
-}
-
-#img5 {
-  background-image: url(http://lorempixel.com/265/200/fashion);
-  background-position: center;
-  background-repeat: none;
-  width: 265px;
-  height: 200px;
-  margin: 20px;
-  display: inline-block;
+.auth-image {
+/*  float: left;
+  width: 200px;*/
+  height: auto;
+  /*margin-right: 25px;*/
+  margin-left: 33px;
 }
 
 .port_text {
-  font-family: 'Georgia', Times, 'Times New Roman', serif;
-  font-size: 22px;
-  color: white;
-  background-color: #4aaaa5;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
   text-align: center;
-  padding: 20px;
-  margin-top: 125px;
+  background: #4aaaa5;
+  border-bottom: 0;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .port_text:hover {
   background-color: #19FFF3;
 }
+
+
+
 
 /* Contact Page Styles */
 
@@ -366,16 +353,44 @@ footer h3 {
   width:420px;
 }
 
+/*.port_text {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 115px;
+}*/
+
 .contact_info {
   margin-left: 0;
   margin-right: 0;
 }
 
-p:last-child {display: none;}
+.gallery {
+ margin-top: 40px;
+}
+
+.work {
+  width: 360px;
+  height: 270px;
+  margin: auto;
+  display: block;
+  float: none;
+  margin-bottom: 40px;
+}
+
+.work:last-child {
+  margin-bottom: 20px;
+}
+
+.port_text {
+  text-align: center;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
-
 
 .body {
   max-width: 768px;
