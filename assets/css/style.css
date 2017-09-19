@@ -431,13 +431,23 @@ aside ul {
   }
 
   li.nav_line {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
+
+  #picture {
+  float: left;
+  margin: 20px 25px 10px 25px;
+  max-width: 600px;
+  width: 90%;
+
+
 
 }
 
-@media screen and (max-width: 390px) {
+}
+
+@media screen and (max-width: 450px) {
   li.nav_line {
     padding-left: 10px;
     padding-right: 10px;
