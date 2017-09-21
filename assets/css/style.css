@@ -148,12 +148,7 @@ a:hover {color: #19FFF3;}
 
 /*  Portfolio Page Styles  */
 
-.gallery {
-/*  margin:20px 20px;
-  padding: 30px;
-  width: 100%;
-  display: inline-block;*/
-}
+
 
 .work {
   position: relative;
@@ -353,23 +348,13 @@ footer h3 {
   width:420px;
 }
 
-/*.port_text {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 20px;
-    color: white;
-    background-color: #4aaaa5;
-    text-align: center;
-    padding: 20px;
-    margin-top: 115px;
-}*/
-
 .contact_info {
   margin-left: 0;
   margin-right: 0;
 }
 
 .gallery {
- margin-top: 40px;
+  margin-top: 40px;
 }
 
 .work {
@@ -389,6 +374,12 @@ footer h3 {
   text-align: center;
   margin-top: 20px;
 }
+input[type=submit] {
+  width: 23%;
+}
+
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -419,59 +410,130 @@ aside ul {
   padding-left: 15px;
 }
 
+.gallery {
+  height: 710px;
+  margin-left: 28px;
+}
+
+.work {
+    position: relative;
+    float: left;
+    width: 40%;
+    overflow: auto;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.auth-image {
+  height: auto;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
 }
 
 @media screen and (max-width: 640px) {
-  header {
-    height: 140px;
-    position: static;
-    max-width: 640px;
-  }
+header {
+  height: 140px;
+  position: static;
+  max-width: 640px;
+}
 
-  .container {
+.container {
 
-  }
+}
 
-  .title_text {
-    width: 100%;
-    height: 100%;
-    float: none;
-  }
+.title_text {
+  width: 100%;
+  height: 100%;
+  float: none;
+}
 
-  nav {
-    background-color: white;
-    width: 100%;
-    margin-top: 0px;
-    float: none;
-  }
+nav {
+  background-color: white;
+  width: 100%;
+  margin-top: 0px;
+  float: none;
+}
 
-  li.nav_line {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
+li.nav_line {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-  #picture {
+#picture {
   float: left;
   margin: 20px 25px 10px 25px;
   max-width: 600px;
   width: 90%;
+}
 
+.gallery {
+  margin: auto;
+  height: 2060px;
+}
 
+.work {
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.auth-image {
+  float: none;
 
 }
 
+}
+
+
+@media screen and (max-width: 616px) {
+.gallery {
+margin: auto;
+height: 2000px;
+}
+
+@media screen and (max-width: 588px) {
+.gallery {
+margin: auto;
+height: 1850px;
+}
+
+@media screen and (max-width: 540px) {
+
+.gallery {
+margin: auto;
+height: 1700px;
+}
+
+@media screen and (max-width: 500px) {
+
+.gallery {
+margin: auto;
+height: 1600px;
 }
 
 @media screen and (max-width: 450px) {
-  li.nav_line {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 4px;
-  }
 
- .title_text {
+li.nav_line {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 4px;
+}
 
-    font-size: 26px;
-  }
+.title_text {
+  font-size: 26px;
+}
+
+.gallery {
+margin: auto;
+height: 1500px;
+overflow: wrap;
+}
 
 }
