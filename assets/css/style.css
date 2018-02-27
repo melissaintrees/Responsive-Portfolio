@@ -57,7 +57,6 @@ header li a {
   line-height: 53px;
   text-decoration: none;
   font-size: 16px;
-
 }
 
 header li a:hover {
@@ -118,8 +117,8 @@ hr {
   margin-top: 20px;
 }
 
-a {color: #4aaaa5;}
-a:hover {color: #19FFF3;}
+a {color: white; text-decoration: none;}
+a:hover {color: black;}
 
 .contact_info {
   max-width: 270px;
@@ -148,14 +147,12 @@ a:hover {color: #19FFF3;}
 
 /*  Portfolio Page Styles  */
 
-
-
 .work {
   position: relative;
   float: left;
   width: 274px;
   margin: 20px 0 25px;
-  overflow: auto;
+ 
 }
 
 /*.work:nth-child(even) {
@@ -177,7 +174,7 @@ a:hover {color: #19FFF3;}
 }
 
 .port_text {
-  position: absolute;
+  /* position: absolute; */
   bottom: 20px;
   width: 100%;
   padding: 15px;
@@ -193,6 +190,7 @@ a:hover {color: #19FFF3;}
 
 .port_text:hover {
   background-color: #19FFF3;
+  color: black;
 }
 
 
@@ -411,7 +409,7 @@ aside ul {
 }
 
 .gallery {
-  height: 710px;
+  height: 1000px;
   margin-left: 28px;
 }
 
@@ -474,7 +472,7 @@ li.nav_line {
 
 .gallery {
   margin: auto;
-  height: 2060px;
+  height: 800px;
 }
 
 .work {
@@ -492,33 +490,14 @@ li.nav_line {
 }
 
 
-@media screen and (max-width: 616px) {
-.gallery {
-margin: auto;
-height: 2000px;
-}
-
-@media screen and (max-width: 588px) {
-.gallery {
-margin: auto;
-height: 1850px;
-}
-
-@media screen and (max-width: 540px) {
-
-.gallery {
-margin: auto;
-height: 1700px;
-}
-
 @media screen and (max-width: 500px) {
 
 .gallery {
 margin: auto;
-height: 1600px;
+height: 2300px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 375px) {
 
 li.nav_line {
   padding-left: 10px;
@@ -532,8 +511,8 @@ li.nav_line {
 
 .gallery {
 margin: auto;
-height: 1500px;
-overflow: wrap;
+height: 2000px;
+
 }
 
 }
