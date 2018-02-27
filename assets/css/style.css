@@ -441,9 +441,7 @@ header {
   max-width: 640px;
 }
 
-.container {
 
-}
 
 .title_text {
   width: 100%;
@@ -512,7 +510,6 @@ li.nav_line {
 .gallery {
 margin: auto;
 height: 2000px;
-
 }
 
-}
+} }
