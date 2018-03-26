@@ -4,7 +4,9 @@ body {
   line-height: 34px;
   color: #777;
   background-image: url(../images/concrete_seamless.png);
-  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 * {
@@ -16,6 +18,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  flex: 1;
 }
 
 header {
@@ -312,6 +315,9 @@ input[type=submit]:hover {
 aside ul {
   padding-top: 10px;
   padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 aside li {
@@ -400,12 +406,14 @@ input[type=submit] {
 }
 
 h2.connect_text {
-  text-align: left;
-  padding-left: 25px;
+  /* text-align: left; */
+  /* padding-left: 25px; */
 }
 
-aside ul {
-  padding-left: 15px;
+.aside ul {
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .gallery {
@@ -468,10 +476,10 @@ li.nav_line {
   width: 90%;
 }
 
-.gallery {
-  margin: auto;
-  height: 800px;
+.info_text {
+  margin-left: 12px;
 }
+
 
 .work {
   width: 82%;
@@ -485,14 +493,22 @@ li.nav_line {
 
 }
 
+.connect_text {
+  text-align: center;
+}
+
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
 
 .gallery {
 margin: auto;
-height: 2300px;
+height: 100%;
+}
+
+input[type=submit] {
+  width: 40%;
 }
 
 @media screen and (max-width: 375px) {
@@ -509,7 +525,7 @@ li.nav_line {
 
 .gallery {
 margin: auto;
-height: 2000px;
+/* height: a */
 }
 
 } }
